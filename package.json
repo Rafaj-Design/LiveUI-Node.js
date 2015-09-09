@@ -1,37 +1,36 @@
 {
-  "name": "liveui",
-  "version": "0.0.1",
-  "description": "A small library providing utility methods to escape and unescape HTML entities",
-  "main": "index.js",
-  "scripts": {
-    "test": "mocha --reporter spec"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/brentertz/scapegoat.git"
-  },
-  "keywords": [
-    "escape",
-    "unescape",
-    "html"
-  ],
-  "author": "Brent Ertz <brent.ertz@gmail.com> (http://brentertz.com/)",
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "https://github.com/brentertz/scapegoat/blob/master/LICENSE-MIT"
-    }
-  ],
-  "bugs": {
-    "url": "https://github.com/brentertz/scapegoat/issues"
-  },
-  "devDependencies": {
-    "mocha": "~1.16.2",
-    "chai": "~1.8.1"
-  },
-  "homepage": "https://github.com/brentertz/scapegoat#readme",
-  "directories": {
-    "test": "test"
-  },
-  "license": "MIT"
+	"description":"A small library providing access to the LiveUI functionality",
+	"version":"0.0.1",
+	"author":"Ondrej Rafaj <ondrej.rafaj@liveui.io> (http:\/\/www.liveui.io\/)",
+	"license":"MIT",
+	"main":"index.js",
+	"homepage":"https:\/\/github.com\/Ridiculous-Innovations\/LiveUI-Node.js#readme",
+	"name":"liveui",
+	"licenses":
+	[
+		{
+			"type":"MIT",
+			"url":"https:\/\/github.com\/Ridiculous-Innovations\/LiveUI-Node.js\/blob\/master\/LICENSE"
+		}
+	],
+	"keywords":
+	[
+		"translations",
+		"remote deployment",
+		"liveui"
+	],
+	"bugs":
+	{
+		"url":"https:\/\/github.com\/Ridiculous-Innovations\/LiveUI-Node.js\/issues"
+	},
+	"devDependencies":
+	{
+		"js-cache":"~1.0.2",
+		"request":"~2.61.0"
+	},
+	"repository":
+	{
+		"type":"git",
+		"url":"git@github.com:Ridiculous-Innovations\/LiveUI-Node.js.git"
+	}
 }
